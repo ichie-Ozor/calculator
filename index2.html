@@ -1,0 +1,51 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Calculator | Ozoemena </title>
+<link rel="stylesheet" href="css/index2.css"/>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+
+	<body>
+	<header></header>
+	        <div class="container">
+	           <fieldset id="container"/>
+	           <form id="calculator" name="calculator">
+	               <input type="text" id="display" name="display" readonly>
+	               
+	               <div>
+	               <input class="button digits" type="button" value="7" onClick="displayNumber(7)">
+	               <input class="button digits" type="button" value="8" onClick="displayNumber(8)">
+	               <input class="button digits" type="button" value="9" onClick="displayNumber(9)">
+	               <input class="operator" type="button" value="+" onClick="calculator.display.value+='+' ">
+	               </div>
+	               <div>
+	               <input class="button digits" type="button" value="4" onClick="displayNumber(4)">
+	               <input class="button digits" type="button" value="5" onClick="displayNumber(5)">
+	               <input class="button digits" type="button" value="6" onClick="displayNumber(6)">
+	               <input class="operator" type="button" value="-" onClick="calculator.display.value +='-'">
+	               </div>
+	               <div>
+	               <input class="button digits" type="button" value="1" onClick="displayNumber(1)" >
+	               <input class="button digits" type="button" value="2" onClick="displayNumber(2)">
+	               <input class="button digits" type="button" value="3" onClick="displayNumber(3)">
+	               <input class="operator" type="button" value="x" onClick="calculator.display.value +='*'">
+	               </div>
+	               <div>
+	               <input id="operator" class="button digits" type="button" value="C" onClick="clearScreen()">
+	               
+                  <!--*once this button is clicked, it alerts the function on the js to execute the function*-->
+               
+	               <input class="button digits" type="button" value="0" onClick="displayNumber(0)" >
+	               <input class="operator" type="button" value="&divide" onClick="calculator.display.value+='/'">
+	               <input class="button digits" type="button" value="=" onClick="equals()">
+	               </div>
+	           </form> 
+	        </div>
+	<footer></footer>
+
+</body>
+</html>
