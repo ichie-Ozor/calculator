@@ -1,0 +1,47 @@
+div.container #container {
+    border: 1px solid black;
+    width: 260px;
+    height: 350px;
+    background-color:white;
+    border-radius: 25px;
+}
+#container div input{
+    margin: 2px;
+    padding: 2px;
+    width: 22%;
+    height: 50px;
+    border-radius: 30%;
+    object-position: center;
+    background: #fff;
+    box-shadow: 2px 2px 5px #ddd;
+    transition: ease-in-out 0.1s all;
+}
+  
+#container div input:hover{
+        background-color: #e2b12b;
+    }
+
+#container div input:active {
+    background: blue;
+    box-shadow: -4px -4px 5px #ccc;
+
+}
+
+.container div input button digits {
+     transition: width 0.5s, height 0.5s, transform 1s;
+     transition: transform 2s;
+}
+
+body {
+    padding: 15em;
+    margin: 100em, 200em;
+}
+ 
+#display {
+    padding-bottom: 10px;
+    margin: 0 10px 10px 10px;
+    height: 50px;
+    width: 245px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 13px;
+}
